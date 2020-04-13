@@ -4,6 +4,8 @@ import './About.css';
 import {Navbar} from '../Navbar/Navbar';
 import {CLEAN_CODE_LINK, PLURALSIGHT_LINK} from "../../constants";
 
+const headshot = require('../../images/headshot.jpg');
+
 export const About = (props: { selectedButton: string, changeSelectedButton: any }) => {
     const {selectedButton, changeSelectedButton} = props;
     return (
@@ -13,6 +15,7 @@ export const About = (props: { selectedButton: string, changeSelectedButton: any
             </div>
             <div className="Container">
                 <body className="About">
+                <img src={headshot} style={{width: '400px', height: '400px'}} alt='headshot'/>
                 <section>
                     <h1>
                         Development Skills
@@ -25,8 +28,8 @@ export const About = (props: { selectedButton: string, changeSelectedButton: any
                     <h3>Professional</h3>
                     <p>
                         I have hands-on experience using Node.js and the AWS serverless application model to
-                        productionalize machine learning models. I have also refactored and maintained React.js and
-                        Python code.
+                        productionalize machine learning models. I also have experience refactoring and maintaining
+                        React.js and Python code.
                     </p>
                     <h3>Coursework</h3>
                     <p>

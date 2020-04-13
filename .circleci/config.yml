@@ -24,15 +24,15 @@ jobs:
           command: npm test
   build:
     <<: *container_config
-      steps:
-        - attach_workspace:
-            at: ~/personal-website
-        - run:
-            name: Build React App
-            command: npm run build
-        - persist_to_workspace:
-            root: ~/personal-website
-            paths: .
+    steps:
+      - attach_workspace:
+          at: ~/personal-website
+      - run:
+          name: Build React App
+          command: npm run build
+      - persist_to_workspace:
+          root: ~/personal-website
+          paths: .
   deploy:
     <<: *container_config
     steps:
@@ -41,14 +41,8 @@ jobs:
       - run:
           name: Push to Repository
           command: |
-            ls
-            git clone https://github.com/danadajian/danadajian.github.io.git
-            cd danadajian.github.io
-            cp -r ../build/. .
-            git add .
-            TIMESTAMP=$( date +"%Y-%m-%d_%H-%M-%S" )
-            git commit -m "Circle CI build ${TIMESTAMP}"
-            git push
+            chmod +x ./deploy.sh
+            .deploy.sh
 
 workflows:
   version: 2

@@ -1,0 +1,21 @@
+.Container {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-color: #282c34;
+  margin-top: 20vh;
+}
+
+.Header {
+  position: fixed;
+  top: 0;
+  height: 20vh;
+  width: 100%;
+  z-index: 1;
+  background-color: #282c34;
+
+}

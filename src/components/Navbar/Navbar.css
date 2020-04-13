@@ -1,0 +1,35 @@
+.Navbar {
+    position: fixed;
+    top: 5vh;
+    left: 5vh;
+    display: flex;
+    justify-content: flex-start;
+    font-size: large;
+}
+
+.Navbar a {
+    padding: 1em 2em;
+    border-bottom: 3px solid #bdc3c7;
+    border-radius: 4px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-right: 1vh;
+    text-decoration: none;
+}
+
+.Navbar a:hover {
+    background: #95a5a6;
+    color: #fff;
+    border-color: #7f8c8d;
+}
+
+.Selected {
+    background: #95a5a6;
+    color: #fff;
+    border-color: #7f8c8d;
+}
+
+.Unselected {
+    background: #ecf0f1;
+    color: #000;
+}

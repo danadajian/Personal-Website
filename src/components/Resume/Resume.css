@@ -1,0 +1,9 @@
+.Resume {
+    display: flex;
+    justify-content: center;
+}
+
+.Resume-object {
+    min-height: 100vh;
+    min-width: 110vh;
+}

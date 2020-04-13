@@ -42,7 +42,7 @@ jobs:
           name: Push to Repository
           command: |
             chmod +x ./deploy.sh
-            .deploy.sh
+            ./deploy.sh
 
 workflows:
   version: 2

@@ -40,7 +40,7 @@ jobs:
 
 workflows:
   version: 2
-  deploy_dfs_pipeline:
+  deploy_personal_website:
     jobs:
       - install
       - test:

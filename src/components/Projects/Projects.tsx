@@ -1,6 +1,7 @@
 import React from 'react';
 import './Projects.css';
 import {Navbar} from '../Navbar/Navbar';
+import {Links} from "../Links/Links";
 
 export const Projects = (props: { selectedButton: string, changeSelectedButton: any }) => {
     const {selectedButton, changeSelectedButton} = props;
@@ -16,6 +17,7 @@ export const Projects = (props: { selectedButton: string, changeSelectedButton: 
                 </p>
                 </body>
             </div>
+            <Links/>
         </div>
     );
 };

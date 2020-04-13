@@ -1,9 +1,10 @@
 .Resume {
     display: flex;
     justify-content: center;
+    height: 150vh;
 }
 
-.Resume-object {
-    min-height: 100vh;
-    min-width: 110vh;
+.Resume iframe {
+    height: 140vh;
+    width: 110vh;
 }

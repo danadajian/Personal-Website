@@ -22,6 +22,17 @@ jobs:
       - run:
           name: Run Tests
           command: npm test
+  build:
+    <<: *container_config
+      steps:
+        - attach_workspace:
+            at: ~/personal-website
+        - run:
+            name: Build React App
+            command: npm run build
+        - persist_to_workspace:
+            root: ~/personal-website
+            paths: .
   deploy:
     <<: *container_config
     steps:
@@ -47,6 +58,9 @@ workflows:
       - test:
           requires:
             - install
+      - build:
+          requires:
+            - install
       - deploy:
           context: PERSONAL_WEBSITE
           filters:
@@ -56,3 +70,4 @@ workflows:
           requires:
             - install
             - test
+            - build

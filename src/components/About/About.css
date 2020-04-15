@@ -1,9 +1,11 @@
 .About {
     text-align: center;
-    margin-left: 15%;
-    margin-right: 15%;
 }
 
 .About a {
     color: white;
+}
+
+.About body {
+    margin: 5% 10%;
 }

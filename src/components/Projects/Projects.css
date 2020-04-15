@@ -1,5 +1,16 @@
 .Projects {
     text-align: center;
-    margin-left: 20%;
-    margin-right: 20%;
+}
+
+.Projects a {
+    color: white;
+}
+
+.Projects section:nth-child(even) {
+    background: #95a5a6;
+    overflow: auto;
+}
+
+.Projects body {
+    margin: 5% 10%;
 }

@@ -32,3 +32,23 @@
     background: #ecf0f1;
     color: black;
 }
+
+.Resume:hover .Resume-dropdown {
+    display: flex;
+    background: #ecf0f1;
+    color: black;
+}
+
+.Resume-dropdown {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 4em;
+    font-size: calc(1px + 2vmin);
+}
+
+#download-pdf:hover {
+    background: #95a5a6;
+    color: #fff;
+    border-color: #7f8c8d;
+}

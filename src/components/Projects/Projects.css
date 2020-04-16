@@ -1,5 +1,6 @@
-.Projects {
-    text-align: center;
+.Projects p {
+    text-align: left;
+    text-indent: 50px;
 }
 
 .Projects a {
@@ -12,5 +13,9 @@
 }
 
 .Projects body {
-    margin: 5% 10%;
+    margin: 5vh 12%;
+}
+
+.Projects img {
+    max-width: 100%;
 }

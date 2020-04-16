@@ -3,3 +3,5 @@ export const CLEAN_CODE_LINK = "https://www.amazon.com/Clean-Code-Handbook-Softw
 export const PLURALSIGHT_LINK = "https://www.pluralsight.com/";
 export const LINKED_IN_LINK = "https://www.linkedin.com/in/dan-adajian-aa8aaa72/";
 export const GITHUB_LINK = "https://github.com/danadajian/";
+export const DFS_OPTIMIZER_SITE = "https://dfsoptimizer.app";
+export const KNAPSACK_PROBLEM_LINK = "https://en.wikipedia.org/wiki/Knapsack_problem";

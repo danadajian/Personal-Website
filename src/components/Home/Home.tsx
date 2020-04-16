@@ -4,8 +4,6 @@ import './Home.css';
 import {Navbar} from '../Navbar/Navbar';
 import {Links} from "../Links/Links";
 
-const chicagoSkyline = require('../../images/chicago.jpg');
-
 export const Home = (props: {selectedButton: string, changeSelectedButton: any}) => {
     const {selectedButton, changeSelectedButton} = props;
     return (
@@ -18,7 +16,6 @@ export const Home = (props: {selectedButton: string, changeSelectedButton: any})
                 </p>
                 <Links/>
             </div>
-            <img src={chicagoSkyline} className="Chicago" alt={'Chicago'}/>
         </div>
     );
 };

@@ -2,6 +2,7 @@ import React from 'react';
 import './Projects.css';
 import {Navbar} from '../Navbar/Navbar';
 import {Links} from "../Links/Links";
+import {DFS_OPTIMIZER_SITE, GITHUB_LINK, KNAPSACK_PROBLEM_LINK} from "../../constants";
 
 const dfsOptimizerExample = require('../../images/dfs-optimizer-example.png');
 
@@ -17,19 +18,15 @@ export const Projects = (props: { selectedButton: string, changeSelectedButton: 
                     <section>
                         <body>
                         <h1>Daily Fantasy Sports Lineup Optimizer</h1>
-                        <a href={"https://dfsoptimizer.app"} target={"_blank"}
+                        <a href={DFS_OPTIMIZER_SITE} target={"_blank"}
                            rel={"noopener noreferrer"}>https://dfsoptimizer.app</a>
                         <h3>Overview</h3>
                         <p>
                             My Daily Fantasy Sports (DFS) lineup optimizer aims to generate a lineup of players such
-                            that
-                            the lineup's total projected points are maximized, given the constraint that the lineup's
-                            total
-                            salary is within the salary cap. Each player has a position, a projection, and a salary, and
-                            a
-                            lineup must contain a certain number of each position. The optimization problem presented
-                            here
-                            is a type of <a href={"https://en.wikipedia.org/wiki/Knapsack_problem"}>knapsack problem</a>,
+                            that the lineup's total projected points are maximized, given the constraint that the
+                            lineup's total salary is within the salary cap. Each player has a position, a projection,
+                            and a salary, and a lineup must contain a certain number of each position. The optimization
+                            problem presented here is a type of <a href={KNAPSACK_PROBLEM_LINK}>knapsack problem</a>,
                             which involves picking items with weights and values optimally to fit inside a knapsack.
                         </p>
                         <img src={dfsOptimizerExample} alt={'DFS Optimizer Example'}/>
@@ -54,10 +51,10 @@ export const Projects = (props: { selectedButton: string, changeSelectedButton: 
                     </section>
                     <section>
                         <body>
-                        <p>More project overviews coming soon! In the meantime, checkout my <a
-                            href={"https://github.com/danadajian/"} target={"_blank"}
+                        <h3>More project overviews coming soon! In the meantime, check out my <a
+                            href={GITHUB_LINK} target={"_blank"}
                             rel={"noopener noreferrer"}>GitHub</a>.
-                        </p>
+                        </h3>
                         </body>
                     </section>
                 </div>

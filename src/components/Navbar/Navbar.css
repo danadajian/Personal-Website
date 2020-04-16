@@ -1,10 +1,9 @@
 .Navbar {
     position: fixed;
     top: 5vh;
-    left: 5vh;
+    left: 3vh;
     display: flex;
-    justify-content: flex-start;
-    font-size: large;
+    font-size: calc(4px + 2vmin);
 }
 
 .Navbar a {

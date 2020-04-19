@@ -20,9 +20,9 @@ export const About = (props: { selectedButton: string, changeSelectedButton: any
                         <body>
                         <img src={headshot} alt='Headshot'/>
                         <p>
-                            I am a self-taught programmer and have become adept at learning new technologies quickly. I
-                            love automating tasks to save time. I'm a strong advocate of test-driven development and
-                            pair-programming, and I exclusively write software guided by the principles of <a
+                            I am a self-taught programmer who loves automating tasks and learning new
+                            technologies. As a strong advocate of test-driven development and
+                            pair-programming, I strive to write software guided by the principles of <a
                             href={CLEAN_CODE_LINK} target={"_blank"} rel={"noopener noreferrer"}>clean code</a>.
                         </p>
                         </body>
@@ -30,42 +30,51 @@ export const About = (props: { selectedButton: string, changeSelectedButton: any
                     <section>
                         <body>
                         <h3>Professional Experience</h3>
-                        <li>
-                            Hands-on experience using Node.js and the AWS serverless application model to
-                            productionalize machine learning models
-                        </li>
-                        <li>
-                            Experience refactoring and maintaining React.js and Python code
-                        </li>
+                        <ul>
+                            <li>
+                                Hands-on experience using Node.js and the AWS serverless application model to
+                                productionalize machine learning models
+                            </li>
+                            <li>
+                                Experience refactoring and maintaining React.js and Python code
+                            </li>
+                        </ul>
                         <h3>Coursework</h3>
-                        <li>
-                            Watched over 30 hours of course
-                            content on <a href={PLURALSIGHT_LINK} target={"_blank"}
-                                          rel={"noopener noreferrer"}>Pluralsight</a> spanning the topics of Java
-                            fundamentals, test-driven development, Java testing frameworks,
-                            object-oriented programming, and AWS frameworks
-                        </li>
-                        <li>
-                            Scored in the 88th percentile on Pluralsight's Java Fundamentals assessment.
-                        </li>
+                        <ul>
+                            <li>
+                                Watched over 30 hours of course
+                                content on <a href={PLURALSIGHT_LINK} target={"_blank"}
+                                              rel={"noopener noreferrer"}>Pluralsight</a> spanning the topics of Java
+                                fundamentals, test-driven development, Java testing frameworks,
+                                object-oriented programming, and AWS frameworks
+                            </li>
+                            <li>
+                                Scored in the 88th percentile on Pluralsight's Java Fundamentals assessment.
+                            </li>
+                        </ul>
                         </body>
                     </section>
                     <section>
                         <body>
                         <h3>Education</h3>
-                        <li>
-                            Graduated from Northwestern University with a Bachelor's Degree in Math and Economics.
-                        </li>
+                        <ul>
+                            <li>
+                                Graduated from Northwestern University with a Bachelor's Degree in Math and Economics.
+                            </li>
+                        </ul>
                         </body>
                     </section>
                     <section>
                         <body>
                         <h3>Interests</h3>
-                        <p>
-                            I play golf when it's over 40 degrees out, and paddle tennis otherwise. I also enjoy
-                            watching
-                            football, playing the piano, and producing music.
-                        </p>
+                        <ul>
+                            <li>
+                                I play golf when it's over 40 degrees out, and paddle tennis otherwise.
+                            </li>
+                            <li>
+                                I enjoy watching football, playing the piano, and building software!
+                            </li>
+                        </ul>
                         </body>
                     </section>
                 </div>

@@ -12,7 +12,10 @@ export const Home = (props: {selectedButton: string, changeSelectedButton: any})
                 <Navbar selectedButton={selectedButton} changeSelectedButton={changeSelectedButton}/>
                 <h1>Dan Adajian</h1>
                 <p>
-                    Welcome to my site! I'm a software developer from Chicago, IL.
+                    I'm a software developer from Chicago, IL.
+                </p>
+                <p>
+                    Welcome to my site!
                 </p>
                 <Links/>
             </div>

@@ -1,6 +1,5 @@
 .About p {
     text-align: left;
-    text-indent: 50px;
 }
 
 .About li {
@@ -12,7 +11,7 @@
 }
 
 .About body {
-    margin: 5% 10%;
+    margin: 5% 15%;
 }
 
 .About img {

@@ -9,5 +9,5 @@ git config --global user.name "$GIT_USERNAME"
 git remote set-url origin "https://$GIT_USERNAME:$GIT_PASSWORD@github.com/danadajian/danadajian.github.io.git"
 git add .
 TIMESTAMP=$( date +"%Y-%m-%d_%H-%M-%S" )
-git commit -m "Circle CI build ${TIMESTAMP}"
+git commit -m "Circle CI build ${TIMESTAMP}" --allow-empty
 git push

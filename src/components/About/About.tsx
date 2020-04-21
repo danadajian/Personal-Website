@@ -7,12 +7,11 @@ import {Links} from "../Links/Links";
 
 const headshot = require('../../images/headshot.jpg');
 
-export const About = (props: { selectedButton: string, changeSelectedButton: any }) => {
-    const {selectedButton, changeSelectedButton} = props;
+export const About = () => {
     return (
         <div>
             <div className="Header">
-                <Navbar selectedButton={selectedButton} changeSelectedButton={changeSelectedButton}/>
+                <Navbar initialState={'About'}/>
             </div>
             <div className="Container">
                 <div className="About">

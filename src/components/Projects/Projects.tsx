@@ -6,12 +6,11 @@ import {DFS_OPTIMIZER_SITE, GITHUB_LINK, KNAPSACK_PROBLEM_LINK} from "../../cons
 
 const dfsOptimizerExample = require('../../images/dfs-optimizer-example.png');
 
-export const Projects = (props: { selectedButton: string, changeSelectedButton: any }) => {
-    const {selectedButton, changeSelectedButton} = props;
+export const Projects = () => {
     return (
         <div>
             <div className="Header">
-                <Navbar selectedButton={selectedButton} changeSelectedButton={changeSelectedButton}/>
+                <Navbar initialState={'Projects'}/>
             </div>
             <div className="Container">
                 <div className="Projects">

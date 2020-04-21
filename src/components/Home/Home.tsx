@@ -4,12 +4,11 @@ import './Home.css';
 import {Navbar} from '../Navbar/Navbar';
 import {Links} from "../Links/Links";
 
-export const Home = (props: {selectedButton: string, changeSelectedButton: any}) => {
-    const {selectedButton, changeSelectedButton} = props;
+export const Home = () => {
     return (
         <div className="Home">
             <div className="Overlay">
-                <Navbar selectedButton={selectedButton} changeSelectedButton={changeSelectedButton}/>
+                <Navbar initialState={'Home'}/>
                 <h1>Dan Adajian</h1>
                 <p>
                     I'm a software developer from Chicago, IL.

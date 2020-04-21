@@ -4,12 +4,11 @@ import {GOOGLE_DOCS_EMBED_LINK_FOR_RESUME} from "../../constants";
 import {Navbar} from '../Navbar/Navbar';
 import {Links} from "../Links/Links";
 
-export const Resume = (props: { selectedButton: string, changeSelectedButton: any }) => {
-    const {selectedButton, changeSelectedButton} = props;
+export const Resume = () => {
     return (
         <div>
             <div className="Header">
-                <Navbar selectedButton={selectedButton} changeSelectedButton={changeSelectedButton}/>
+                <Navbar initialState={'Resume'}/>
             </div>
             <div className="Container">
                 <body className="Resume">

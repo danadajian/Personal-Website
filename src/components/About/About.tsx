@@ -31,11 +31,13 @@ export const About = () => {
                         <h3>Professional Experience</h3>
                         <ul>
                             <li>
-                                Hands-on experience using Node.js and the AWS serverless application model to
-                                productionalize machine learning models
+                                Data pipeline architecture using the AWS serverless application model
                             </li>
                             <li>
-                                Experience refactoring and maintaining React.js and Python code
+                                Leveraging AWS Lambda and Batch to productionalize machine learning models
+                            </li>
+                            <li>
+                                Full-stack .NET web application development using MVC framework
                             </li>
                         </ul>
                         <h3>Coursework</h3>

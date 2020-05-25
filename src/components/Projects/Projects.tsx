@@ -33,18 +33,15 @@ export const Projects = () => {
                         <p>
                             The method I developed uses what I call "selective brute force", which reduces the problem
                             efficiently to make checking all possibilities feasible. First, players are grouped by
-                            position
-                            and sorted by their salary-to-projection ratios. Then, players are removed from each
-                            position
-                            pool until the maximum number of lineup combinations is under a specified fixed threshold.
-                            Finally, a recursive algorithm efficiently iterates over possible lineups one by one,
-                            ensuring
-                            each new lineup it checks has the potential to be better (i.e. has a higher projected point
-                            total).
+                            position and sorted by their salary-to-projection ratios. Then, players are removed from
+                            each position pool until the maximum number of lineup combinations is under a specified
+                            fixed threshold. Finally, a recursive algorithm efficiently iterates over possible lineups
+                            one by one, ensuring each new lineup it checks has the potential to be better (i.e. has a
+                            higher projected point total).
                         </p>
                         <p>
-                            The app currently supports Fanduel and Draftkings contests, and scrapes data from multiple
-                            sources.
+                            The app currently supports Fanduel and Draftkings contests for the big four
+                            (MLB, NFL, NBA, NHL).
                         </p>
                         </body>
                     </section>

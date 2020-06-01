@@ -50,7 +50,7 @@ export const About = () => {
                                 object-oriented programming, and AWS frameworks
                             </li>
                             <li>
-                                Scored in the 88th percentile on Pluralsight's Java Fundamentals assessment.
+                                Scored in the 88th percentile on Pluralsight's Java Fundamentals assessment
                             </li>
                         </ul>
                         </body>
@@ -60,7 +60,7 @@ export const About = () => {
                         <h3>Education</h3>
                         <ul>
                             <li>
-                                Graduated from Northwestern University with a Bachelor's Degree in Math and Economics.
+                                Graduated from Northwestern University with a Bachelor's Degree in Math and Economics
                             </li>
                         </ul>
                         </body>

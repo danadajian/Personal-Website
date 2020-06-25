@@ -10,11 +10,15 @@
     color: white;
 }
 
+.About h3 {
+    text-align: left;
+}
+
 .About body {
     margin: 5% 15%;
 }
 
 .About img {
-    width: 50vh;
-    height: 50vh;
+    width: 40vh;
+    height: 40vh;
 }

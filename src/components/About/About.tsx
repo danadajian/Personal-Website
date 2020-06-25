@@ -2,7 +2,7 @@ import React from 'react';
 import '../../App.css';
 import './About.css';
 import {Navbar} from '../Navbar/Navbar';
-import {CLEAN_CODE_LINK, PLURALSIGHT_LINK} from "../../constants";
+import {CLEAN_CODE_LINK} from "../../constants";
 import {Links} from "../Links/Links";
 
 const headshot = require('../../images/headshot.jpg');
@@ -38,19 +38,6 @@ export const About = () => {
                             </li>
                             <li>
                                 Full-stack .NET web application development using MVC framework
-                            </li>
-                        </ul>
-                        <h3>Coursework</h3>
-                        <ul>
-                            <li>
-                                Watched over 30 hours of course
-                                content on <a href={PLURALSIGHT_LINK} target={"_blank"}
-                                              rel={"noopener noreferrer"}>Pluralsight</a> spanning the topics of Java
-                                fundamentals, test-driven development, Java testing frameworks,
-                                object-oriented programming, and AWS frameworks
-                            </li>
-                            <li>
-                                Scored in the 88th percentile on Pluralsight's Java Fundamentals assessment
                             </li>
                         </ul>
                         </body>
